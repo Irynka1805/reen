@@ -1,0 +1,48 @@
+/* grid */
+.container {
+	width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* typography */
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+	color: #506a85;
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #506a85;
+}
+		.slick-dots {
+		background-color: #fff;
+	    width: 145px;
+	    height: 30px;
+	    padding: 5px;
+		border-radius: 3px;
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		text-align: center;
+		margin-left: -100px;
+			li {
+				margin-top: 8px;
+				margin-right: 5px;
+				margin-left: 0;
+		 		button:before {
+		 			content: "";
+					display: inline-block;
+					width: 15px;
+					height: 15px;
+					background: #506a85;
+					border-radius: 50%;
+					margin: 0 3px;
+				&:active {
+					background-color: #00bc9c;
+				}
+			}
+			}
+		}
